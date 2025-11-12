@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1008</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>321</width>
+     <height>206</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lblKode">
+      <property name="text">
+       <string>KODE MUZAKI</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="editKode"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lblNama">
+      <property name="text">
+       <string>NAMA MUZAKI</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="editNama"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lblTempat">
+      <property name="text">
+       <string>TEMPAT LAHIR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="editTempat"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lblTgl">
+      <property name="text">
+       <string>TANGGAL LAHIR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QDateEdit" name="dateTgl"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lblAlamat">
+      <property name="text">
+       <string>ALAMAT</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lblJK">
+      <property name="text">
+       <string>JENIS KELAMIN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="cmbJK">
+      <item>
+       <property name="text">
+        <string>Perempuan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Laki - Laki</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="lblNik">
+      <property name="text">
+       <string>NIK</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="editNik"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QTextEdit" name="txtAlamat"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>581</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lblPekerjaan">
+      <property name="text">
+       <string>PEKERJAAN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="editPekerjaan"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lblStatus">
+      <property name="text">
+       <string>STATUS PERKAWINAN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="cmbStatus">
+      <item>
+       <property name="text">
+        <string>Kawin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Belum Kawin</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lblPenghasilan">
+      <property name="text">
+       <string>PENGHASILAN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="editPenghasilan"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lblTelp">
+      <property name="text">
+       <string>NO TELEPON</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="editTelp"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lblEmail">
+      <property name="text">
+       <string>EMAIL</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="editEmail"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lblUser">
+      <property name="text">
+       <string>USERNAME</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="editUser"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="lblPass">
+      <property name="text">
+       <string>PASSWORD</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="editPass"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>190</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SIMPAN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHapus">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>190</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HAPUS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUbah">
+   <property name="geometry">
+    <rect>
+     <x>725</x>
+     <y>190</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UBAH</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tblMuzaki">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>911</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Nama Muzaki</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tempat Lahir</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tanggal Lahir</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kode Muzaki</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Alamat</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Jenis Kelamin</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>NIK</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Pekerjaan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status Perkawinan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Penghasilan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>No Telepon</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Username</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Password</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="editCari">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>911</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CARI DATA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClear">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>220</y>
+     <width>581</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

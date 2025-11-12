@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>718</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>701</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lblNoTrans">
+      <property name="text">
+       <string>NO. TRANSAKSI</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="editNotrans"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lblKdZakat">
+      <property name="text">
+       <string>KODE ZAKAT</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="cmbKdZakat"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lblKdMuzaki">
+      <property name="text">
+       <string>KODE MUZAKI</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="cmbKdMuzaki"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lblJumlah">
+      <property name="text">
+       <string>JUMLAH</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="editJumlah"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lblBentuk">
+      <property name="text">
+       <string>BENTUK</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QComboBox" name="cmbBentuk">
+      <item>
+       <property name="text">
+        <string>Zakat Fitrah</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Zakat Mal</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Zakat Emas dan Perak</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Zakat Perdagangan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Zakat Pertanian</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Zakat Peternakan</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lblTglMsk">
+      <property name="text">
+       <string>TANGGAL MASUK</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QDateEdit" name="editTglMsk"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="lblNorek">
+      <property name="text">
+       <string>NO REKENING</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="editNorek"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="lblBukti">
+      <property name="text">
+       <string>BUKTI</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="editBukti"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="lblKet">
+      <property name="text">
+       <string>KETERANGAN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="txtKet"/>
+    </item>
+    <item row="9" column="1">
+     <widget class="QComboBox" name="cmbStatus">
+      <item>
+       <property name="text">
+        <string>Berhasil</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Di Tolak</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="lblidAdmin">
+      <property name="text">
+       <string>ID ADMIN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QComboBox" name="cmbIdAdmin"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="lblStatus">
+      <property name="text">
+       <string>STATUS</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>211</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SIMPAN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHapus">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>270</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HAPUS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUbah">
+   <property name="geometry">
+    <rect>
+     <x>445</x>
+     <y>270</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UBAH</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tblZakatMasuk">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>380</y>
+     <width>701</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>No Transaksi Masuk</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kode Zakat</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kode Muzaki</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Jumlah Masuk</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Bentuk</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tanggal Masuk</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>No Rekening</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Bukti</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Keterangan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ID Admin</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="editCari">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>701</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClear">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>691</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CARI DATA</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

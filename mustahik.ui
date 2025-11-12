@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>696</width>
+    <height>561</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>681</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lblKode">
+      <property name="text">
+       <string>KODE MUSTAHIK</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="editKode"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lblNama">
+      <property name="text">
+       <string>NAMA MUSTAHIK</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="editNama"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lblNik">
+      <property name="text">
+       <string>NIK</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="editNik"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lblTempat">
+      <property name="text">
+       <string>TEMPAT LAHIR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="editTempat"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lblTgl">
+      <property name="text">
+       <string>TANGGAL LAHIR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QDateEdit" name="dateTgl"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lblAlamat">
+      <property name="text">
+       <string>ALAMAT</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="lblJK">
+      <property name="text">
+       <string>JENIS KELAMIN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QComboBox" name="cmbJK">
+      <item>
+       <property name="text">
+        <string>Perempuan</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Laki - Laki</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="lblGol">
+      <property name="text">
+       <string>GOLONGAN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QComboBox" name="cmbGol">
+      <item>
+       <property name="text">
+        <string>Fakir</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Muallaf</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Miskin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Gharim</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QTextEdit" name="txtAlamat"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>201</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SIMPAN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHapus">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>270</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HAPUS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUbah">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>270</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UBAH</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tblMustahik">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>380</y>
+     <width>681</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Kode Mustahik</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nama Mustahik</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>NIK</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tempat Lahir</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tanggal Lahir</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Alamat</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Jenis Kelamin</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Golongan</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="editCari">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>681</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClear">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>681</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CARI DATA</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main</class>
+ <widget class="QMainWindow" name="Main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu_Utama">
+    <property name="title">
+     <string>Menu Utama</string>
+    </property>
+    <addaction name="actionMustahik"/>
+    <addaction name="actionMuzaki"/>
+    <addaction name="actionZakat"/>
+    <addaction name="actionZakat_Keluar"/>
+    <addaction name="actionZakat_Masuk"/>
+    <addaction name="actionAdmin"/>
+   </widget>
+   <addaction name="menuMenu_Utama"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMustahik">
+   <property name="text">
+    <string>Mustahik</string>
+   </property>
+  </action>
+  <action name="actionMuzaki">
+   <property name="text">
+    <string>Muzaki</string>
+   </property>
+  </action>
+  <action name="actionZakat">
+   <property name="text">
+    <string>Zakat</string>
+   </property>
+  </action>
+  <action name="actionZakat_Keluar">
+   <property name="text">
+    <string>Zakat Keluar</string>
+   </property>
+  </action>
+  <action name="actionZakat_Masuk">
+   <property name="text">
+    <string>Zakat Masuk</string>
+   </property>
+  </action>
+  <action name="actionAdmin">
+   <property name="text">
+    <string>Admin</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
