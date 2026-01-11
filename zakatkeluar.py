@@ -135,7 +135,7 @@ class ZakatKeluar(QMainWindow):
             self.formZakatKeluar.tblZakatKeluar.setItem(i,2,QTableWidgetItem(r["kdMustahik"]))
             self.formZakatKeluar.tblZakatKeluar.setItem(i,3,QTableWidgetItem(str(r["JumlahKeluar"])))
             self.formZakatKeluar.tblZakatKeluar.setItem(i,4,QTableWidgetItem(r["bentuk"]))
-            self.formZakatKeluar.tblZakatKeluar.setItem(i,5,QTableWidgetItem(r["tglMasuk"]))
+            self.formZakatKeluar.tblZakatKeluar.setItem(i,5,QTableWidgetItem(str(r["tglMasuk"])))
             self.formZakatKeluar.tblZakatKeluar.setItem(i,6,QTableWidgetItem(str(r["idAdmin"])))
             self.formZakatKeluar.tblZakatKeluar.setItem(i,7,QTableWidgetItem(r["ket"]))
 
@@ -151,8 +151,8 @@ class ZakatKeluar(QMainWindow):
             self.formZakatKeluar.tblZakatKeluar.setItem(i,2,QTableWidgetItem(r["kdMustahik"]))
             self.formZakatKeluar.tblZakatKeluar.setItem(i,3,QTableWidgetItem(str(r["JumlahKeluar"])))
             self.formZakatKeluar.tblZakatKeluar.setItem(i,4,QTableWidgetItem(r["bentuk"]))
-            self.formZakatKeluar.tblZakatKeluar.setItem(i,5,QTableWidgetItem(r["tglMasuk"]))
-            self.formZakatKeluar.tblZakatKeluar.setItem(i,6,QTableWidgetItem(r["idAdmin"]))
+            self.formZakatKeluar.tblZakatKeluar.setItem(i,5,QTableWidgetItem(str(r["tglMasuk"])))
+            self.formZakatKeluar.tblZakatKeluar.setItem(i,6,QTableWidgetItem(str(r["idAdmin"])))
             self.formZakatKeluar.tblZakatKeluar.setItem(i,7,QTableWidgetItem(r["ket"]))
 
 
