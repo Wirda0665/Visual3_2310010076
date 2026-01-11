@@ -36,6 +36,8 @@ class Ui_Main(object):
         self.actionZakat_Masuk.setObjectName(u"actionZakat_Masuk")
         self.actionAdmin = QAction(Main)
         self.actionAdmin.setObjectName(u"actionAdmin")
+        self.actionbayar = QAction(Main)
+        self.actionbayar.setObjectName(u"actionbayar")
         self.centralwidget = QWidget(Main)
         self.centralwidget.setObjectName(u"centralwidget")
         Main.setCentralWidget(self.centralwidget)
@@ -56,6 +58,7 @@ class Ui_Main(object):
         self.menuMenu_Utama.addAction(self.actionZakat_Keluar)
         self.menuMenu_Utama.addAction(self.actionZakat_Masuk)
         self.menuMenu_Utama.addAction(self.actionAdmin)
+        self.menuMenu_Utama.addAction(self.actionbayar)
 
         self.retranslateUi(Main)
 
@@ -70,6 +73,7 @@ class Ui_Main(object):
         self.actionZakat_Keluar.setText(QCoreApplication.translate("Main", u"Zakat Keluar", None))
         self.actionZakat_Masuk.setText(QCoreApplication.translate("Main", u"Zakat Masuk", None))
         self.actionAdmin.setText(QCoreApplication.translate("Main", u"Admin", None))
+        self.actionbayar.setText(QCoreApplication.translate("Main", u"Bayar", None))
         self.menuMenu_Utama.setTitle(QCoreApplication.translate("Main", u"Menu Utama", None))
     # retranslateUi
 

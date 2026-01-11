@@ -33,6 +33,7 @@
     <addaction name="actionZakat_Keluar"/>
     <addaction name="actionZakat_Masuk"/>
     <addaction name="actionAdmin"/>
+    <addaction name="actionbayar"/>
    </widget>
    <addaction name="menuMenu_Utama"/>
   </widget>
@@ -65,6 +66,11 @@
   <action name="actionAdmin">
    <property name="text">
     <string>Admin</string>
+   </property>
+  </action>
+  <action name="actionbayar">
+   <property name="text">
+    <string>Bayar</string>
    </property>
   </action>
  </widget>

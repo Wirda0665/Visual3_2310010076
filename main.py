@@ -12,6 +12,7 @@ from muzaki import Muzaki
 from zakat import Zakat
 from zakatkeluar import ZakatKeluar
 from zakatmasuk import ZakatMasuk
+from bayar import bayar
 
 class Main(QMainWindow):
     def __init__(self, parent=None):
@@ -31,6 +32,7 @@ class Main(QMainWindow):
         self.formutama.actionZakat.triggered.connect(self.buka_zakat)
         self.formutama.actionZakat_Keluar.triggered.connect(self.buka_zakatkeluar)
         self.formutama.actionZakat_Masuk.triggered.connect(self.buka_zakatmasuk)
+        self.formutama.actionbayar.triggered.connect(self.buka_bayar)
 
     def buka_admin(self):
         self.admin = Admin()
@@ -56,6 +58,10 @@ class Main(QMainWindow):
     def buka_zakatmasuk(self):
         self.zakatmasuk = ZakatMasuk()
         self.zakatmasuk.show()
+
+    def buka_bayar(self):
+        self.bayar = bayar()
+        self.bayar.show()
 
 
 if __name__ == "__main__":

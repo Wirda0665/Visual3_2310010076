@@ -220,3 +220,23 @@ class my_cruddb:
         record = cursor.fetchall()
         cursor.close()
         return record
+
+
+    def simpanBayar(self, kode, namaBarang, harga, jumlah, total):
+        cursor = self.conn.cursor()
+        cursor.execute("insert into bayar (kode, namaBarang, harga, jumlah, total) value(%s,%s,%s,%s,%s)",(kode, namaBarang, harga, jumlah, total))
+        self.conn.commit()
+        cursor.close()
+
+    def hapusBayar(self, kode):
+        cursor = self.conn.cursor()
+        cursor.execute("delete from bayar where kode=%s",(kode,))
+        self.conn.commit()
+        cursor.close()
+
+    def dataBayar(self):
+        cursor = self.conn.cursor(dictionary = True)
+        cursor.execute("select * from bayar order by kode asc")
+        record = cursor.fetchall()
+        cursor.close()
+        return record
